@@ -3,52 +3,62 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="style.css" />
   <title>LUGX Store</title>
 </head>
 <body>
-  <!-- HEADER -->
+  <!-- Start HEADER -->
+  <div class="header-container">
   <div class="header">
     <img class="logo" src="images/logo.png" />
     <div class="header-links">
       <a href="test.html">Home</a>
-      <a href="#">Our shop</a>
-      <a href="#">Contact</a>
-      <a href="#">About</a>
+      <a href="#">Our Shop</a>
+      <a href="#">Product Details</a>
+      <a href="#">Contact Us</a>
       <button class="btn">Sign in</button>
     </div>
   </div>
+</div>
+  <!-- End HEADER -->
 
-  <!-- Landing Page -->
+  <!-- Start LANDING PAGE -->
+  <div class="landing-page-container">
   <div class="landing-page">
-    <div class="landing-page-left-section">
-      <span>Welcome To Lugx!</span>
-      <h1>Best Gaming Site ever!</h1>
-      <p>
+    <!-- Left SIDE -->
+    <div class="leftSide">
+      <p class="welcome">Welcome To LUGX</p>
+      <h1 class="slogan">Best Gaming Site ever!</h1>
+      <p class="description">
         LUGX Gaming is free Bootstrap 5 HTML CSS website template for your
         gaming websites. You can download and use this layout for commercial
         purposes. Please tell your friends about TemplateMo.
       </p>
-      <div class="landing-page-search">
-        <input placeholder="Start typing..." />
-        <button class="btn">SEARCH</button>
+      <div class="searchBar">
+        <input type="text" placeholder="Type Something" />
+        <button class="btn searchBtn">SEARCH NOW</button>
       </div>
     </div>
-    <div class="landing-page-image-container">
+
+    <!-- Right SIDE -->
+    <div class="image-container">
       <img src="images/banner-image.jpg" />
     </div>
   </div>
+</div>
+  <!-- End LANDING PAGE -->
 
-  <!-- Trending Games -->
+  <!-- Start TRENDING GAMES -->
   <div class="trending-container">
     <span>Trending</span>
     <div class="trending-header">
       <h1>Trending Games</h1>
       <button class="btn">view all</button>
     </div>
+
     <div class="trending-cards">
       <!-- CARD 1  -->
       <div class="card">
@@ -58,7 +68,7 @@
             <p>Action</p>
             <h3>Warframe</h3>
           </div>
-          <a>
+          <a href="#" class="icon">
             <img src="images/online-shopping.png" />
           </a>
         </div>
@@ -72,7 +82,7 @@
             <p>Action</p>
             <h3>Tower of Fantasy</h3>
           </div>
-          <a>
+          <a href="#" class="icon">
             <img src="images/online-shopping.png" />
           </a>
         </div>
@@ -86,7 +96,7 @@
             <p>Action</p>
             <h3>Super People</h3>
           </div>
-          <a>
+          <a href="#" class="icon">
             <img src="images/online-shopping.png" />
           </a>
         </div>
@@ -98,21 +108,24 @@
         <div class="card-info">
           <div class="card-name">
             <p>Action</p>
-            <h3>Yu-Gi-Oh! Master Duel</h3>
+            <h3>Yu-Gi-Oh!</h3>
           </div>
-          <a>
+          <a href="#" class="icon">
             <img src="images/online-shopping.png" />
           </a>
         </div>
       </div>
     </div>
   </div>
+  <!-- End TRENDING GAMES -->
 
-  <!-- Most Played -->
+  <!-- Start MOST PLAYED -->
   <div class="most-played-container">
-    <span>Top Games</span>
-    <div class="most-played-header">
-      <h1>Most Played</h1>
+    <div class="most-header">
+      <div>
+        <span>Top Games</span>
+        <h1>Most Played</h1>
+      </div>
       <button class="btn">view all</button>
     </div>
 
@@ -190,8 +203,9 @@
     </div>
     </div>
   </div>
+  <!-- End MOST PLAYED -->
 
-  <!-- Top Categories -->
+  <!-- Start TOP CATEGORIES -->
   <div class="top-categories-container">
     <span class="top-categories-span">Top Games</span>
     <div class="top-categories-header">
@@ -230,12 +244,13 @@
       </div>
     </div>
   </div>
+  <!-- End TOP CATEGORIES -->
 
-  <!-- Footer -->
+  <!-- Start FOOTER -->
   <div class="footer-container">
     <div class="footer">
-      <p>copyright &copy; 2048 LUG Gaming Company. All rights reserved. Design: TemplateMo </p>
+    copyright &copy; 2048 LUGX Gaming Company. All rights reserved. Design: TemplateMo
     </div>
   </div>
-
+  <!-- End FOOTER -->
 </body>
